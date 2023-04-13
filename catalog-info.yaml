@@ -1,8 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-kubernetes-component
+  name: kiali-poc
+  description: An example of a Kiali application.
+  # Example for optional annotations
+  annotations:
+    'backstage.io/kubernetes-namespace': dice-roller
 spec:
-  lifecycle: production
-  owner: my-team
   type: service
+  lifecycle: production
+  owner: user:guest
