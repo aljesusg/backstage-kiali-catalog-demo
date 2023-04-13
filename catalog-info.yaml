@@ -6,7 +6,6 @@ metadata:
   # Example for optional annotations
   annotations:
     "backstage.io/kubernetes-id": travels
-    "backstage.io/kubernetes-namespace": travels
 spec:
   type: service
   lifecycle: production
