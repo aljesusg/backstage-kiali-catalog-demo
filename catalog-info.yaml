@@ -5,7 +5,8 @@ metadata:
   description: An example of a Kiali application.
   # Example for optional annotations
   annotations:
-    "backstage.io/kubernetes-namespace": travel-agency,travel-portal,travel-control
+    #'backstage.io/kubernetes-id': dice-roller
+    "backstage.io/kubernetes-namespace": travels
 spec:
   type: service
   lifecycle: production
