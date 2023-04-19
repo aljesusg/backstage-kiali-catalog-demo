@@ -3,6 +3,9 @@ kind: Component
 metadata:
   name: kiali-poc
   description: An example of a Kiali application.
+  tags:
+    - istio
+    - kiali
   annotations:
     "backstage.io/kubernetes-id": travels
 spec:
