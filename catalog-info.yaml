@@ -4,6 +4,10 @@ metadata:
   name: kiali-poc
   description: An example of a Kiali application.
   # Example for optional annotations
+  tags:
+    - ServiceMesh
+    - Istio
+    - Kiali
   annotations:
     "backstage.io/kubernetes-id": travels
 spec:
