@@ -5,9 +5,9 @@ metadata:
   description: An example of a Kiali application.
   # Example for optional annotations
   tags:
-    - ServiceMesh
-    - Istio
-    - Kiali
+    - servicemesh
+    - istio
+    - kiali
   annotations:
     "backstage.io/kubernetes-id": travels
 spec:
