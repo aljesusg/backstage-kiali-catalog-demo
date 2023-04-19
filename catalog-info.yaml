@@ -5,7 +5,6 @@ metadata:
   description: An example of a Kiali application.
   # Example for optional annotations
   tags:
-    - servicemesh
     - istio
     - kiali
   annotations:
