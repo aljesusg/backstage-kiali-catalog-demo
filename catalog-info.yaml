@@ -1,13 +1,16 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: kiali-poc
-  description: An example of a Kiali application.
+  name: travels
+  description: An example of a Kiali demo travels application.
   tags:
     - istio
     - kiali
+    - travels
+    - servicemesh
   annotations:
     "backstage.io/kubernetes-id": travels
+    "app.openshift.io/connects-to": '[{"apiVersion": "apps/v1","kind": "Deployment","name": "discounts"}]'
 spec:
   type: service
   lifecycle: production
