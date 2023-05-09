@@ -9,7 +9,7 @@ metadata:
     - core
     - servicemesh
   annotations:
-    "backstage.io/kubernetes-namespace": istio-system
+    "backstage.io/kubernetes-namespace": istio-system,travel-agency,travel-portal,travel-control
 spec:
   type: service
   lifecycle: production
