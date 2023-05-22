@@ -6,7 +6,7 @@ metadata:
   tags:
     - apicurio
   annotations:
-    "backstage.io/apicurio-properties": app:demo,version:v1
+    "backstage.io/apicurio-properties": app:demo
 spec:
   type: service
   lifecycle: production
