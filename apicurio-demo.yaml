@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: apicurio-demo-2
+  name: apicurio-demo-property
   description: An example of a Apicurio demo.
   tags:
     - apicurio
   annotations:
-    "backstage.io/apicurio-properties": app:apicurio
+    "backstage.io/apicurio-properties": app:apicurio, version:demo
 spec:
   type: service
   lifecycle: production
